@@ -1,1 +1,146 @@
-# hello-world
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Aquaventure">
+    <meta name="keywords" content="Aquaventure">
+    <meta name="author" content="Idlan">
+ 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/include_script.js"></script>
+	<!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+	<!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
+  	<!--[if lt IE 9]>
+	   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <link href="css/ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+</head>
+<body>
+<!--web site spinner-->
+	<div id="webSiteLoader"></div>
+<!--button back top-->
+	<!--<div id="back-top"></div>-->
+<!--page spinner-->
+	<div id="pageLoader"><div></div></div>
+<!--background image-->
+	<div class="gall_spinner"></div>
+    <div id="bgStretch"><img src="img/bg_pic1.jpg" alt=""></div>
+    <div id="bgNav">
+        <ul>
+            <li class="active"><a href="img/bg_pic1.jpg"></a></li>
+            <li><a href="img/bg_pic2.jpg"></a></li>
+            <li><a href="img/bg_pic3.jpg"></a></li>
+        </ul>
+    </div>
+<!--content wrapper-->
+	<div id="wrapper">
+<!--header-->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+<!--logo and company name-->		
+						<h1><a href="index.html" id="logo">A quaventure</a></h1>
+					</div>
+					<div class="span8">
+			<!--menu-->
+                        <div class="menuMov">
+							<div class="menu">
+								<ul class="sf-menu">
+									<li><a href="index1.html"><div class="mText">Welcome</div></a></li>
+									<li><a href="index3.html"><div class="mText">Services</div></a></li>
+									<li><a href="index4.html"><div class="mText">Gallery</div></a></li>
+									<li><a href="index5.html"><div class="mText">Blog</div></a></li>
+									<li ><a href="index6.html"><div class="mText">Contacts</div></a></li>
+									<li class="last"><a href="index2.html"><div class="mText">Login</div></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--splash-->	
+		<div class="splash">
+			<div class="splashHolder">
+	             <div class="container">
+                    	<div id="slider_simple1">
+                            <ul class="slider_set">
+								<li>
+									<p><span class="sliderText1">A great variety</span><br>
+										<span class="sliderText1">of underwater</span><br>
+										<span class="sliderText1">species</span><br>
+										<span class="sliderText2">DISCOVER THE WHOLE NEW <br> EXPERIENCE WITH US NOW!</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						
+                </div>
+	        </div>
+    	</div>
+<!--content-->	
+		<div class="containerHolder">
+    		<section>
+                <div class="container">
+                    <div class="dynamicContent">
+                      	
+                    </div>
+                </div>
+                <div class="mainBg"></div>
+    		</section>
+		</div>
+<!--footer-->	
+		<footer>
+			<div class="var_1">
+				<hr>
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<ul class="social-icon">
+								<li><a href="https://www.facebook.com" class="animate icon-facebook"></a></li>
+								<li><a href="https://www.google.com" class="animate icon-google-plus"></a></li>
+								<li><a href="#" class="animate icon-rss"></a></li>
+								<li><a href="https://www.pintrest.com" class="animate icon-pinterest"></a></li>
+								<li><a href="https://www.linkedin.com" class="animate icon-linkedin"></a></li>
+							</ul>
+						</div>
+						<div class="span12">
+							<div class="block_info1">
+								<p>Aquaventure &copy; 2022 &bull; <a class="link_0 animate" href="index8.html">Privacy Policy</a>&nbsp;<!-- {%FOOTER_LINK} --></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="var_2">
+				<hr>
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<ul class="social-icon">
+								<li><a href="https://www.facebook.com" class="animate icon-facebook"></a></li>
+								<li><a href="https://www.google.com" class="animate icon-google-plus"></a></li>
+								<li><a href="https://www.linkedin.com" class="animate icon-pinterest"></a></li>
+								<li><a href="https://www.linkedin.com" class="animate icon-linkedin"></a></li>
+							</ul>
+						</div>
+						<div class="span12">
+							<div class="block_info1">
+								<p>Aquaventure&copy; 2022 &bull; <a class="link_0 animate" href="index8.html">Privacy Policy</a>&nbsp;<!-- {%FOOTER_LINK} --></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>		
+	</div>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
